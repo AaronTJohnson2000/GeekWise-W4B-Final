@@ -1,0 +1,173 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+  }
+  .NavBar{
+      align-items: bottom;
+      margin:50px 25px;
+   
+  }
+  .float{
+    float:left;
+    height:30px;
+    width:50%;
+  }
+  ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  /*.slogan{
+      width: 75%;
+      text-align: center;
+      vertical-align: middle;
+  }*/
+  img{
+     /* margin: 20,20px;*/
+      align-content: center;
+      width:100%;
+      height:100%;
+  }
+  #logo{
+    float:top;
+    height:auto;
+    width: 28%;
+  }
+
+  nav{
+      margin:0;
+      padding:0;
+      width:100%;
+      height:26%;
+      background-color:#996633;
+
+  }
+  div{
+      /*width:50%;*/
+     float:right; 
+     display:inline-block;
+  }
+  li{
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+    padding:0 50;
+    border: 1px solid #555;
+    background-color:#996633;
+    
+    
+}
+a:link {
+   
+    float:right;
+    text-decoration: none;
+  }
+
+  li:hover{
+     background-color: #d79451;
+  }
+  .links{
+      
+      color:black;
+  }
+  #navLink{
+      /*width:50%;*/
+    text-align: right;
+    display: inline-block;
+  }
+  
+  a{
+    text-align: center;
+    margin:0 10px;
+    text-decoration: none;
+    
+  }
+  /* this is a super cool method*/
+  li a:hover {
+    background-color: rgba #555;
+    color: white;
+    display: block;
+     /*padding: 8px 16px; note: this can make the link button change size if you hover it, 
+     for now I have decided to leave it out for now. */
+  }
+    
+    li a {
+    display: block;
+    width: 70px;
+    
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+  /* hero image section*/
+  .centered-text{
+      position:absolute;
+      top:40%;
+      left:50%;
+      transform:translate(-50%, -50%);
+      font-size:24px;
+      color:white;
+  }
+  .hero{
+      margin:0;
+      padding:0;
+      height:600px;
+      width:100%;
+      color:white;
+      background-color:trans;
+      /*opacity:0.8;*/
+     
+
+  }
+  #black{
+      background-color:black;
+  }
+  #clear{
+      background: transparent;
+      
+  }
+  /* this is is the styling for the columns*/
+  .column{ 
+      
+      float:left;
+      width:33.33%;
+      height:300px;
+      padding:10px;
+      border-bottom:solid black 2px;
+      border-left: solid black 2px;
+      
+
+  }
+  .row{
+      margin-top: 20px;;
+      width:100%;
+  }
+  /* clear floats after the columns*/
+  .row:after{
+    
+      content:"";
+      display: table;
+      clear:both;
+}
+.social{
+    width:100%;
+    height:100px;
+    background-color:#d1e0e0;
+}
+.footer{
+    width:100%;
+    height:150px;
+    background-color: #996633;
+}
+section{
+    margin:10 10px;
+    paddign:5px;
+}
