@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
 }
@@ -6,6 +5,8 @@ body{
     padding:0;
     margin:0;
     height:100vh;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   .NavBar{
       align-items: bottom;
@@ -169,5 +170,105 @@ a:link {
 }
 section{
     margin:10 10px;
-    paddign:5px;
+    padding:5px;
+}
+iframe{
+  width:33.33%;
+}
+
+.title{
+  margin-top:60px;
+  height:20px;
+  width:100%;
+  text-align: center;
+  font-size: 40px;
+}
+.about-column{
+  float:left;
+      width:33.33%;
+      height:300px;
+      padding:10px;
+     /*border-bottom:solid black 2px;*/
+      /*border-left: solid black 2px;*/
+
+}
+.about-row{
+  margin-top: 20px;;
+      width:100%;
+
+}
+p{
+  text-align: center;
+
+}
+.locations{
+  width:100%;
+}
+.find-us{
+  margin-top:60px;
+  width:100%;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 30px;
+}
+.contact{
+  margin-top:60px;
+  width:100%;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 20px;
+}
+.form{
+  width: 100%;
+  margin:0 auto;
+  text-align: center;
+}
+.form :input{
+  display:block;
+  width:100%;
+  margin-top: 5px;
+  margin-bottom:20px;
+ 
+}
+.text-align-center{
+text-align: center;
+}
+form input textarea{
+  display:block;
+  margin-bottom:20px;
+  font-size:inherit;
+
+}
+.contact-form{
+  width:100%;
+}
+.form email{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+
+.social{
+  height:20px;
+  width:100%;
+text-align: center;
+}
+footer{
+  text-align: center;
+}
+.map{
+  width:100%;
+  margin-top: 20px;
 }
